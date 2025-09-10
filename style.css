@@ -1,0 +1,37 @@
+
+body
+ {
+  background-color: darkred;
+  display: flex;
+  flex-direction: column;
+}
+main
+{
+    font-family:'Times New Roman', Times, serif;
+    color: antiquewhite;
+    text-align: center;
+    display: flex; 
+}
+.bal
+{
+  flex: 25%;
+  text-align: center;
+  align-items: left;
+}
+.jobb
+{
+  flex: 25%;
+  text-align: center;
+  align-items: right;
+}
+.kozep
+{
+  flex: 25%;
+  text-align: center;
+  align-items: center;
+}
+article h4
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 300;
+}

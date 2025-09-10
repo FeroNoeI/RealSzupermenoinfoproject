@@ -1,2 +1,2 @@
 # RealSzupermenoinfoproject
-Ez a realy info project
+Ez a really info project

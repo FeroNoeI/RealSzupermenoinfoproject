@@ -1,0 +1,45 @@
+body
+{
+    background-color: darkred;
+   
+}
+header
+{
+    text-align: center;
+    color: antiquewhite;
+    font-family: fantasy;
+}
+nav
+{
+    background-color: black;
+    color: antiquewhite;
+    padding: 10px 0px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    
+    
+}
+main
+{
+ display: flex;
+}
+section
+{
+    flex: 80%;
+    color: antiquewhite;
+}
+section h3
+{
+    font-style: italic;
+    text-decoration: underline;
+}
+aside
+{
+    flex: 20%;
+    color: antiquewhite;
+}
+aside img
+{
+    width: 50%;
+}

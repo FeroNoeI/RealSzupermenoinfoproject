@@ -24,14 +24,18 @@ main
   text-align: center;
   align-items: right;
 }
+
 .kozep
 {
   flex: 25%;
   text-align: center;
   align-items: center;
 }
-article h4
+.linkek
 {
-  font-family: 'Times New Roman', Times, serif;
-  font-weight: 300;
+    
+}
+.linkek a:hover
+{
+    color:aqua;
 }

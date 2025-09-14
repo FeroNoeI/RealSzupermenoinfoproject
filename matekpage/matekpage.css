@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  padding: 1px;
+  background-color: gray
+}
+
+.navbar{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.container{
+  display: flex;
+  height: 1000px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(245, 245, 220);
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.egesz{
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+}
+
+.Tartalom{
+  background-color: rgb(245, 245, 170);
+  width: 30%;
+}
+
+.jobb{
+  background-color: rgb(245, 245, 170);
+  width: 30%;
+}
+button{
+  border-radius: 5px;
+}
+
+.Tantargyak{
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+.Tantargyak:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+.Helyezes{
+  text-align: center;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.container nav{
+  display: flex;
+  height: 100px;
+  width: 100%;
+  background-color: gray;
+}
+
+
+
+.sidebar {
+  width: 200px;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 6px;
+  border-radius: 4px;
+}
+
+summary:hover {
+  background: #e0e0e0;
+}
+
+
+details ul {
+  margin: 6px 0 0 16px; 
+  padding: 0;
+  list-style: none;
+}
+
+details ul li {
+  padding: 4px 0;
+}
+
+.footer {
+  background: #1a1a1a;
+  color: #fff;              
+  padding: 20px;
+  margin-top: 40px;        
+}
+
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.footer-nav {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-nav a {
+  color: #bbb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-nav a:hover {
+  color: #fff;
+}

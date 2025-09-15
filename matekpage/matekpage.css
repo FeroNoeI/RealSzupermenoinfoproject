@@ -20,7 +20,7 @@ header{
 
 .container{
   display: flex;
-  height: 1000px;
+  height: auto;
   width: 100%;
   text-align: center;
   background-color: rgb(245, 245, 220);

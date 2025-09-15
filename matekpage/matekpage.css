@@ -2,23 +2,12 @@
   box-sizing: border-box;
 }
 
-header{
-  height: 80px;
+
+.oldal{
   width: 100%;
-  text-align: center;
-  padding: 1px;
-  background-color: gray
+  height: auto;
 }
-
-.navbar{
-  display: flex;
-  margin-top: 30px;
-  margin-bottom: 50px;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.container{
+.mycontainer{
   display: flex;
   height: auto;
   width: 100%;
@@ -34,28 +23,9 @@ header{
   text-align: center;
 }
 
-.Tartalom{
+.side{
   background-color: rgb(245, 245, 170);
-  width: 30%;
-}
-
-.jobb{
-  background-color: rgb(245, 245, 170);
-  width: 30%;
-}
-button{
-  border-radius: 5px;
-}
-
-.Tantargyak{
-  text-decoration: none;
-  color: black;
-  padding: 1rem;
-}
-
-.Tantargyak:hover{
-  text-decoration: underline;
-  color: blue;
+  width: 15%;
 }
 
 .Helyezes{
@@ -63,14 +33,6 @@ button{
   justify-content: center;
   align-items: baseline;
 }
-
-.container nav{
-  display: flex;
-  height: 100px;
-  width: 100%;
-  background-color: gray;
-}
-
 
 
 .sidebar {

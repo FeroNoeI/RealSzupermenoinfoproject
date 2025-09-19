@@ -15,27 +15,52 @@ main
 .bal
 {
   flex: 25%;
-  text-align: center;
+  text-align: left;0
   align-items: left;
+  background-color: black;
+}
+.bal h3
+{
+    text-align: center;
 }
 .jobb
 {
   flex: 25%;
   text-align: center;
   align-items: right;
+  background-color: black;
 }
 
 .kozep
 {
-  flex: 25%;
+  flex: 50%;
   text-align: center;
   align-items: center;
 }
-.linkek
-{
-    
-}
-.linkek a:hover
+
+a:hover
 {
     color:aqua;
+}
+a
+{
+    color: antiquewhite;
+    text-decoration: none;
+}
+details
+{
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;   
+}
+summary
+{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite; 
+    text-align: left;
+    font-weight: bold;
 }

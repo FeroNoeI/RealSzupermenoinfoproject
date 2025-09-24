@@ -10,3 +10,30 @@ main
 {
     color: white;
 }
+.érettségi_felkészités
+{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+.film_elemzés
+{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+.Esszé_elemzés
+{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.udvozlo
+{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}

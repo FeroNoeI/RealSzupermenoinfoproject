@@ -1,39 +1,61 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .test
 {
     background-color: darkgray;
 }
-.navbar
-{
-    font-family: 'Times New Roman', Times, serif;
-}
+
 main
 {
     color: white;
+}
+.mycontainer{
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.aside{
+    background-color: black;
+    color: white;
+    flex: 15%;
 }
 .érettségi_felkészités
 {
     color: black;
     text-align: center;
     text-decoration: none;
-
 }
+
 .film_elemzés
 {
     color: black;
     text-align: center;
     text-decoration: none;
-
 }
+
 .Esszé_elemzés
 {
     color: black;
     text-align: center;
     text-decoration: none;
-
 }
 
 .udvozlo
 {
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    flex: 85%;
+}
+
+.bal
+{
+    flex: 15%;
+    text-align: center;
+    align-items: right;
+    background-color: black;
+    color: white;
 }

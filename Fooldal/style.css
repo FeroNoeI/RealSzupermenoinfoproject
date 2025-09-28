@@ -15,9 +15,8 @@ main
 .bal
 {
   flex: 25%;
-  text-align: left;0
+  text-align: left;
   align-items: left;
-  background-color: black;
 }
 .bal h3
 {
@@ -28,7 +27,6 @@ main
   flex: 25%;
   text-align: center;
   align-items: right;
-  background-color: black;
 }
 
 .kozep
@@ -36,6 +34,7 @@ main
   flex: 50%;
   text-align: center;
   align-items: center;
+  padding: 0px;
 }
 
 a:hover
@@ -52,13 +51,13 @@ details
     text-align: left;
     margin-left: 20%;
     margin-right: 20%;
-    font-size: 15px;
+    font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
     color: antiquewhite;   
 }
 summary
 {
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'Times New Roman', Times, serif;
     color: antiquewhite; 
     text-align: left;

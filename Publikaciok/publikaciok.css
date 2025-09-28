@@ -1,0 +1,44 @@
+body
+ {
+    display: flex;
+  background-color: darkred;
+  flex-direction: column;
+}
+header
+{
+    text-align: center;
+    color: antiquewhite;
+    font-family: fantasy;
+}
+main
+{
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    color: antiquewhite; 
+}
+.jobb
+{
+    flex: 80%; 
+    font-family:'Times New Roman', Times, serif;
+    color: antiquewhite;
+    text-align: right;
+    
+}
+.bal
+{
+    flex: 20%;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: antiquewhite;
+    margin-left: 10px;
+}
+
+a:hover
+{
+    color:aqua;
+}
+a
+{
+    color: antiquewhite;
+    text-decoration: none;
+}

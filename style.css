@@ -13,17 +13,37 @@ main
     color: white;
 }
 .mycontainer{
-    display: flex;
+    display: flexbox;
     text-align: center;
-    margin: 0 auto;
     justify-content: center;
 }
 
-.aside{
+.jobb{
     background-color: black;
     color: white;
     flex: 15%;
 }
+
+.udvozlo
+{
+    text-align: center;
+    flex: 70%;
+}
+
+.bal
+{
+    flex: 15%;
+    text-align: center;
+    align-items: right;
+    background-color: black;
+    color: white;
+}
+
+.szoveg{
+    width: 15%;
+}
+
+
 .érettségi_felkészités
 {
     color: black;
@@ -43,19 +63,4 @@ main
     color: black;
     text-align: center;
     text-decoration: none;
-}
-
-.udvozlo
-{
-    text-align: center;
-    flex: 85%;
-}
-
-.bal
-{
-    flex: 15%;
-    text-align: center;
-    align-items: right;
-    background-color: black;
-    color: white;
 }
